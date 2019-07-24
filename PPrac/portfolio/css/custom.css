@@ -1,0 +1,32 @@
+
+
+@keyframes active {
+   0% { width:285px; 
+    	margin-left: -272px;}
+    100% { transform: none; }
+   }
+   @-webkit-keyframes active {
+     0% { width:285px; 
+    	margin-left: -272px;}
+    100% { transform: none; }
+}
+
+@keyframes activeback {
+   0% { width:285px; 
+    	margin-right: 13px;}
+    100% { transform: none; }
+   }
+   @-webkit-keyframes activeback {
+   0% { width:285px; 
+    	margin-right: 13px;}
+    100% { transform: none; }
+   }
+   .swiper-pagination-bullet-active {
+	animation: active 0.5s ease-in-out;
+    -webkit-animation: active 0.5s ease-in-out;
+}
+
+.active-back {
+  animation: activeback 0.5s ease-in-out;
+    -webkit-animation: activeback 0.5s ease-in-out;
+}
